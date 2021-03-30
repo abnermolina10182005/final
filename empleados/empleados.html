@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Empleados</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <form id="empleados">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="fnombre">
+        <label for="dpi">Dpi</label>
+        <input type="number" id="dpi" name="fdpi">
+        <label for="clave">Contraseña</label>
+        <input type="password" id="clave" name="fid">
+        <div id="respuesta"></div>
+        <button id="abrir">Ir a productos</button>
+        <button id="salir">Salir</button>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+    </form>
+    <script>
+        require('./empleados.js');
+    </script>
+</body>
+
+</html>
